@@ -1,0 +1,8 @@
+.quiz-component {
+    @apply p-4;
+  }
+  
+  .question {
+    @apply mb-4;
+  }
+  
