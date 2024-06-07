@@ -1,14 +1,30 @@
-.header {
-  padding: 1rem;
-  background-color: #1e3a8a;
-  color: white;
+body, html {
+  margin: 0;
+  padding: 0;
 }
 
+main {
+  padding-top: 60px; /* Ajuste para garantir que o conteúdo não fique atrás do header */
+}
+
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center; /* Alinha verticalmente os itens ao centro */
+  justify-content: space-between; /* Distribui espaço entre os itens */
+}
 .header nav {
   display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+  max-width: 1300px; /* Define uma largura máxima para o conteúdo do header */
+  justify-content: space-between; /* Distribui espaço entre os itens */
 }
 
 .header h1 {
@@ -21,9 +37,16 @@
   gap: 1rem;
 }
 
+.nav-links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 .nav-link {
   color: white;
   text-decoration: none;
+  padding: 10px;
 }
 
 .nav-link:hover {

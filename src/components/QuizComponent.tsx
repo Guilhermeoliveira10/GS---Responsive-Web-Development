@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/custom.css'
+import Layout from '../components/Layout'
 
 const QuizComponent: React.FC = () => {
   const [score, setScore] = useState(0)
@@ -43,21 +44,23 @@ const QuizComponent: React.FC = () => {
   }
 
   return (
-    <div className="quiz-component">
-      <h1 className="text-2xl font-bold mb-4">Quiz sobre a Vida Marinha</h1>
-      <div className="card">
-        <h2 className="quiz-question">{questions[currentQuestion].question}</h2>
-        {questions[currentQuestion].options.map(option => (
-          <button 
-            key={option} 
-            onClick={() => handleAnswer(option)}
-            className="quiz-option"
-          >
-            {option}
-          </button>
-        ))}
+    <Layout>
+      <div className="quiz-component">
+        <h1 className="text-2xl font-bold mb-4">Quiz sobre a Vida Marinha</h1>
+        <div className="card">
+          <h2 className="quiz-question">{questions[currentQuestion].question}</h2>
+          {questions[currentQuestion].options.map(option => (
+            <button 
+              key={option} 
+              onClick={() => handleAnswer(option)}
+              className="quiz-option"
+            >
+              {option}
+            </button>
+          ))}
+        </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 
