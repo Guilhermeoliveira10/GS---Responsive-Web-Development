@@ -12,7 +12,7 @@ const Header: React.FC = () => {
           <Link href="/games" className="nav-link">Games</Link>
           <Link href="/challenges" className="nav-link">Challenges</Link>
           <Link href="/info" className="nav-link">Info</Link>
-          <Link href="/login" className="nav-link">Login</Link> {/* Adicionando o link para a página de login */}
+          <Link href="/login" className="nav-link">Login</Link>
         </div>
       </nav>
     </header>

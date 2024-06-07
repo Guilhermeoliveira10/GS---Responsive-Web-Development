@@ -23,8 +23,8 @@ const ChallengeComponent: React.FC = () => {
   return (
     <Layout>
       <div className="challenge-component card">
-        <h1 className="text-2xl font-bold mb-4">Desafio Diário</h1>
-        {currentChallenge ? <p>{currentChallenge.text}</p> : <p>Carregando desafio...</p>}
+        <h1 className="text-2xl font-bold mb-4">Desafio diário</h1>
+        {currentChallenge ? <p>{currentChallenge.text}</p> : <p>Carregando o desafio...</p>}
       </div>
     </Layout>
   )
