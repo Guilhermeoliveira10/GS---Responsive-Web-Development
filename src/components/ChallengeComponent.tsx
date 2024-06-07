@@ -1,5 +1,7 @@
+// components/ChallengeComponent.tsx
 import React, { useState, useEffect } from 'react'
 import '../styles/custom.css'
+import Layout from './Layout'
 
 interface Challenge {
   id: number;
@@ -20,10 +22,12 @@ const ChallengeComponent: React.FC = () => {
   }, [challenges])
 
   return (
-    <div className="challenge-component card">
-      <h1 className="text-2xl font-bold mb-4">Desafio Diário</h1>
-      {currentChallenge ? <p>{currentChallenge.text}</p> : <p>Carregando desafio...</p>}
-    </div>
+    <Layout>
+      <div className="challenge-component card">
+        <h1 className="text-2xl font-bold mb-4">Desafio Diário</h1>
+        {currentChallenge ? <p>{currentChallenge.text}</p> : <p>Carregando desafio...</p>}
+      </div>
+    </Layout>
   )
 }
 

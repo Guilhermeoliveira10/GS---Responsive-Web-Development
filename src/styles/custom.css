@@ -65,6 +65,7 @@ main {
   background-color: #1e3a8a;
   color: white;
   text-align: center;
+  margin-top: -10rem; /* Ajuste a margem superior conforme necessário */
 }
 
 .button {
@@ -130,5 +131,5 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 60vh;
 }
