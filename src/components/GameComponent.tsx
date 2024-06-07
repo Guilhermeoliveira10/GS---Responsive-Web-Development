@@ -4,6 +4,7 @@ import Layout from './Layout'
 
 const GameComponent: React.FC = () => {
   return (
+    //component do jogo
     <Layout>
       <div className="game-component card">
         <h1 className="text-2xl font-bold mb-4">Jogo da Vida Marinha</h1>
