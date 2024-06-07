@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import '../styles/custom.css'
 
 const QuizComponent: React.FC = () => {
   const [score, setScore] = useState(0)

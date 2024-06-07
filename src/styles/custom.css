@@ -70,27 +70,28 @@
 }
 
 .quiz-option {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin: 0.5rem;
-  background-color: #1e3a8a;
-  color: white;
-  border: none;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
   text-align: center;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .quiz-option:hover {
-  background-color: #3b82f6;
-  transform: scale(1.05);
+  background-color: #0056b3;
 }
 
 .quiz-question {
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .quiz-component {
@@ -98,7 +99,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  padding: 20px;
 }
 
 .challenge-component, .game-component, .info-component, .social-share-component {
