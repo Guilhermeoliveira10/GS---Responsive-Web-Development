@@ -32,7 +32,7 @@ export default function RootLayout({
         </header>
         <main className="main">{children}</main>
         <footer className="footer">
-          <p>© 2024 Ocean Guardians</p>
+          <p>2024 Ocean Guardians</p>
           <p>Guilherme Augusto de Oliveira, RM554176</p>
           <p>Luiz Alecsander Viana, RM553034</p>
         </footer>
