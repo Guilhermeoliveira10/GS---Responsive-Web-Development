@@ -18,6 +18,9 @@ const Home: React.FC = () => (
       <Link href="/info" className="nav-link">
         Info
       </Link>
+      <Link href="/users">
+        <a>View Users</a>
+      </Link>
     </nav>
   </div>
 )
