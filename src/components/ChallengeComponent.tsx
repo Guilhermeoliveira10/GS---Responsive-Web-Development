@@ -1,4 +1,3 @@
-// components/ChallengeComponent.tsx
 import React, { useState, useEffect } from 'react'
 import '../styles/custom.css'
 import Layout from './Layout'

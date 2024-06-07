@@ -1,6 +1,5 @@
-// components/Header.tsx
 import React from 'react'
-import Link from 'next/link'  // Se você estiver usando Next.js, caso contrário, use react-router-dom para SPA
+import Link from 'next/link'
 
 const Header: React.FC = () => {
   return (

@@ -1,4 +1,3 @@
-// components/InfoComponent.tsx
 import React from 'react'
 import '../styles/custom.css'
 import Layout from './Layout'

@@ -4,7 +4,7 @@ body, html {
 }
 
 main {
-  padding-top: 60px; /* Ajuste para garantir que o conteúdo não fique atrás do header */
+  padding-top: 60px;
 }
 
 .header {
@@ -16,15 +16,15 @@ main {
   width: 100%;
   z-index: 1000;
   display: flex;
-  align-items: center; /* Alinha verticalmente os itens ao centro */
-  justify-content: space-between; /* Distribui espaço entre os itens */
+  align-items: center;
+  justify-content: space-between;
 }
 .header nav {
   display: flex;
   align-items: center;
   width: 100%;
-  max-width: 1300px; /* Define uma largura máxima para o conteúdo do header */
-  justify-content: space-between; /* Distribui espaço entre os itens */
+  max-width: 1300px;
+  justify-content: space-between;
 }
 
 .header h1 {
@@ -65,7 +65,7 @@ main {
   background-color: #1e3a8a;
   color: white;
   text-align: center;
-  margin-top: -10rem; /* Ajuste a margem superior conforme necessário */
+  margin-top: -10rem;
 }
 
 .button {
