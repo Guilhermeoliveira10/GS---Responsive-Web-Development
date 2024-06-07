@@ -11,7 +11,7 @@ const Login: React.FC = () => {
           <form>
             <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
-                Usuário:    
+                Usuário:
               </label>
               <input
                 className="input"
@@ -22,7 +22,7 @@ const Login: React.FC = () => {
             </div>
             <div className="mb-6">
               <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
-                Senha:     
+                Senha:
               </label>
               <input
                 className="input"

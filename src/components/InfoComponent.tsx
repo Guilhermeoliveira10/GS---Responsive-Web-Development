@@ -14,7 +14,7 @@ const InfoComponent: React.FC = () => {
   return (
     <Layout>
       <div className="info-component card">
-        <h1 className="text-2xl font-bold mb-4">Dicas de Proteção dos Oceanos</h1>
+        <h1 className="text-2xl font-bold mb-4">Dicas de proteção aos oceanos</h1>
         <ul>
           {tips.map((tip, index) => (
             <li key={index} className="mb-2">{tip}</li>

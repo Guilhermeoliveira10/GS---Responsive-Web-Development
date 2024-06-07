@@ -46,7 +46,7 @@ const QuizComponent: React.FC = () => {
   return (
     <Layout>
       <div className="quiz-component">
-        <h1 className="text-2xl font-bold mb-4">Quiz sobre a Vida Marinha</h1>
+        <h1 className="text-2xl font-bold mb-4">Quiz sobre a vida marinha</h1>
         <div className="card">
           <h2 className="quiz-question">{questions[currentQuestion].question}</h2>
           {questions[currentQuestion].options.map(option => (
